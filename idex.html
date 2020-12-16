@@ -5,10 +5,14 @@
     <style>
         .grid-container {
             display: grid;
-            grid-template-columns: auto auto auto;
+            grid-template-columns: 50px 50px 50px;
+            /*Make the grid smaller than the container*/
             grid-gap: 10px;
             background-color: #2196F3;
+            justify-content: center;
             padding: 10px;
+            align-content: center;
+            height: 800px;
         }
         
         .grid-container>div {
@@ -17,35 +21,26 @@
             padding: 20px 0;
             font-size: 30px;
         }
-        
-        .item1 {
-            grid-column-start: 1;
-            grid-column-end: 3;
-        }
-        
-        .item2 {
-            grid-column-start: 3;
-            grid-column-end: 6;
-        }
     </style>
 </head>
 
 <body>
 
-    <h1>Grid Lines</h1>
+    <h1>The justify-content Property</h1>
+
+    <p>Use the <em>justify-content</em> property to align the grid inside the container.</p>
+
+    <p>The value "space-evenly" will give the columns equal amount of space between, and around them:</p>
 
     <div class="grid-container">
-        <div class="item1">1</div>
-        <div class="item2">2</div>
-        <div class="item3">3</div>
-        <div class="item4">4</div>
-        <div class="item5">5</div>
-        <div class="item6">6</div>
-        <div class="item7">7</div>
-        <div class="item8">8</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
     </div>
 
-    <p>You can refer to line numbers when placing grid items.</p>
 
 </body>
 
