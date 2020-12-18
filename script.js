@@ -1,9 +1,10 @@
 const overlay = document.querySelector(".overlay");
 const galleryImages = document.querySelectorAll(".gallery__image");
 
-const handleClick = (e) => {
+const handleClick = (event) => {
   // get src of clicked image
-  const src = e.target.src;
+  // const src = event.target.src;
+  const src = event.currentTarget.querySelector("img").src;
 
   const overlayImage = overlay.querySelector("img");
   overlayImage.src = src;
@@ -13,6 +14,7 @@ const handleClick = (e) => {
 
   // console.log(overlayImage.src);
 };
+
 const closeImage = () => {
   overlay.classList.remove("open");
 };
