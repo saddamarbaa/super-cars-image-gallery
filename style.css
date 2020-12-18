@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Satisfy&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+}
+.logo {
+  font-family: "Satisfy", cursive;
+  padding: 20px;
+  font-size: 3rem;
+}
+
+.container {
+  display: grid;
+  grid-gap: 20px;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, 180px);
+}
+.gallery__image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery__image:hover {
+  transform: scale(1.05);
+}
+/* .gallery__image:active {
+  transform: scale(3);
+} */
+
+.gallery__image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: fixed;
+  top: 1200px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+.overlay.open {
+  top: 0;
+  opacity: 1;
+  transition: opacity 0.8s ease-in;
+}
+.overlay__inner {
+  background-color: #fff;
+  width: 700px;
+  padding: 20px;
+}
+
+.overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
