@@ -1,4 +1,4 @@
-#CSS-Grid---Image-Gallery
+# Project: Responsive an image gallery with CSS Grid 
 
 
 Click the link blow to see the gallery [GitHub Pages]:  (https://saddamarbaa.github.io/super-cars-image-gallery/)
