@@ -1,7 +1,7 @@
 # Project: Responsive an image gallery with CSS Grid 
 
 
-Click the link blow to see the gallery [GitHub Pages]:  (https://saddamarbaa.github.io/super-cars-image-gallery/)
+Click the link blow to see the gallery [GitHub Pages]:  (https://saddamarbaa.github.io/project_super_cars_image_gallery/)
 
 ![image](https://user-images.githubusercontent.com/51326421/102723336-a677d480-4339-11eb-97a8-3f4fe617f0f7.png)
 
