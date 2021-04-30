@@ -1,7 +1,14 @@
-# Project: Responsive an image gallery with CSS Grid 
+# Responsive image gallery with CSS Grid 
+
+==> Responsive image gallery Website built with HTML5/CSS using modern CSS features 
+    and techniques like CSS grid, CSS Variables, rem units, 
 
 
-Click the link blow to see the gallery [GitHub Pages]:  (https://saddamarbaa.github.io/project_super_cars_image_gallery/)
+### <a href="https://super-car-image-gallery.netlify.app/">LIVE DEMO</a>
+
+### <a href="https://saddamarbaa.github.io/super-cars-image-gallery/">GitHub Pages DEMO</a>
+
+
 
 ![image](https://user-images.githubusercontent.com/51326421/102723336-a677d480-4339-11eb-97a8-3f4fe617f0f7.png)
 
